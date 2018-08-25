@@ -22,7 +22,7 @@ h2 {
 
 /** Header **/
 header {
-  border-top: 5px solid #c24e4b;
+  border-top: 5px solid orangered;
   background: rgba(30, 44, 53, 0.8);
   height: 90px;
   width: 100%;
@@ -75,7 +75,7 @@ header .container {
 
 .destaque button {
   margin-top: 1em;
-  background: #c24e4b;
+  background: orangered;
   border: 0;
   padding: .6em;
   font-size: 1.2em;
@@ -148,7 +148,7 @@ header .container {
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
-  background: #c24e4b;
+  background: orangered;
   text-align: center;
   height: 2em;
   padding-top: .6em;
@@ -156,7 +156,7 @@ header .container {
 
 .plano div {
   text-align: center;
-  color: #c24e4b;
+  color: orangered;
   font-size: 2.75em; }
 
 .itens-plano {
@@ -176,7 +176,7 @@ header .container {
   float: right; }
 
 .plano button {
-  background: #c24e4b;
+  background: orangered;
   border: 0;
   color: #fff;
   width: 210px;
@@ -258,7 +258,7 @@ textarea {
 
 .contato button {
   margin: 0 auto;
-  background: #c24e4b;
+  background: orangered;
   border: 0;
   color: #fff;
   width: 210px;
@@ -351,4 +351,4 @@ footer a {
 .social a[href*="instagram"] {
   background-image: url(../imagens/instagram.png); }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilo.css.map */
