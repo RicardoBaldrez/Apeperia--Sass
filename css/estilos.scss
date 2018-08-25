@@ -4,23 +4,23 @@ $cor-auxiliar: #1e2c35;
 $cor-branca: #fff;
 $texto-centralizado: center;
 
-// Mixin Sass
+// Mixin Sass - Blocos onde contem várias regras.
 @mixin borda-aredondada($raio: 0.3em) {
-   border-radius: $raio;
-   -webkit-border-radius: $raio;
-   -moz-border-radius: $raio;
-   -ms-border-radius: $raio;
-   -o-border-radius: $raio;
+  border-radius: $raio;
+  -webkit-border-radius: $raio;
+  -moz-border-radius: $raio;
+  -ms-border-radius: $raio;
+  -o-border-radius: $raio;
 }
 
 @mixin sombra-padrao($sombra: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3)) {
-   box-shadow: $sombra;
+  box-shadow: $sombra;
 }
 
 @mixin image-replacement {
-   text-indent: -9999px;
-   overflow: hidden;
-   background-repeat: no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
 }
 
 /** Geral **/
@@ -120,7 +120,7 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  @include borda-aredondada();
+  @include borda-aredondada(50px);
   @include sombra-padrao();
   font-weight: bold;
 }
@@ -147,7 +147,7 @@ header .container {
 }
 
 .sobre p:first-child {
-  margin-bottom: 3em;
+  //margin-bottom: 3em;
 }
 
 .plataformas {
