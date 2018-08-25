@@ -2,6 +2,7 @@
 $cor-padrao: #c24e4b;
 $cor-auxiliar: #1e2c35;
 $cor-branca: #fff;
+$texto-centralizado: center;
 
 // Mixin Sass
 @mixin borda-aredondada($raio: 0.3em) {
@@ -35,7 +36,7 @@ body {
 .titulo-secao {
   text-decoration: underline;
   font-size: 2em;
-  text-align: center;
+  text-align: $texto-centralizado;
 }
 
 .sobre,
@@ -203,14 +204,14 @@ header .container {
   color: $cor-branca;
   font-size: 1.8em;
   background: $cor-padrao;
-  text-align: center;
+  text-align: $texto-centralizado;
   height: 2em;
   padding-top: .6em;
   margin-top: 0;
 }
 
 .plano div {
-  text-align: center;
+  text-align: $texto-centralizado;
   color: $cor-padrao;
   font-size: 2.75em;
 }
