@@ -1,0 +1,12 @@
+// Variáveis Sass
+
+// Exemplo abaixo de como usar porcentagem para deixar mais claro ou escuro uma cor, sem precisar de plugins e etc...
+// Quando o segundo parâmetro estiver zerado, volta a cor original
+// ---> $cor-padrao: lighten(#c24e4b, 5%);
+// ---> $cor-padrao: darken(#c24e4b, 25%);
+
+$cor-padrao: #c24e4b;
+$cor-auxiliar: #1e2c35;
+$cor-branca: #fff;
+$texto-centralizado: center;
+$md-mobile: "(max-width: 980px)";
